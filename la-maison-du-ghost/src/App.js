@@ -15,12 +15,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Bonjour je suis Icksan et je veux concevoir une app en react js 
+          Learn React
         </a>
       </header>
     </div>
-
-    
   );
 }
 
