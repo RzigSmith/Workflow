@@ -19,10 +19,10 @@ function ShoppingList() {
 			<ul className='lmj-plant-list'>
 				{plantList.map((plant) => (
 					<li key={plant.id} className='lmj-plant-item'>
-						{plant.isBestsale && <span className ='lmj-best-sale'>🔥</span>}
+						{plant.isBestSale && <span>🔥</span>}
 						{plant.name}
-						<CareScale careType={'light'} scaleType={plant.light} />
-						<CareScale careType={'water'} scaleType={plant.water} />
+						<CareScale careType='water' scaleValue={plant.water} />
+						<CareScale careType='light' scaleValue={plant.light} />
 					</li>
 				))}
 			</ul>
