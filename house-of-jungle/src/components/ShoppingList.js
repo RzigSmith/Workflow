@@ -49,5 +49,4 @@ function ShoppingList({ cart, updateCart }) {
 	)
 }
 
-
 export default ShoppingList
