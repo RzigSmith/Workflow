@@ -44,4 +44,4 @@ function Cart({ cart, updateCart }) {
 	)
 }
 
-export default cart 
+export default Cart
